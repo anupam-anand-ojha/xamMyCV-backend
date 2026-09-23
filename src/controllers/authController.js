@@ -33,8 +33,8 @@ export const registerUser = async (req, res) => {
   }
 };
 
-// @desc   Login user
-// @route  POST /api/auth/login
+// Login 
+
 export const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body;
