@@ -9,7 +9,9 @@ const storage = multer.diskStorage({
     const uniqueName = `${Date.now()}-${file.originalname}`;
     cb(null, uniqueName);
   },
+
 });
+
 
 const fileFilter = (req, file, cb) => {
   const allowedTypes = ['.pdf', '.docx'];
@@ -25,7 +27,8 @@ const fileFilter = (req, file, cb) => {
 const upload = multer({
   storage,
   fileFilter,
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
+  limits: { fileSize: 5 * 1024 * 1024 }, //limit 5mb
+
 });
 
 export default upload;
