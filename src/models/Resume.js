@@ -15,8 +15,9 @@ const resumeSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    // extracted text from PDF/DOCX
     rawText: {
-      type: String, // extracted text from PDF/DOCX
+      type: String, 
     },
     parsedData: {
       skills: [String],
