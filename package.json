@@ -15,9 +15,12 @@
     "cors": "^2.8.6",
     "dotenv": "^18.0.1",
     "express": "^5.2.1",
+    "fs": "^0.0.1-security",
     "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.12.3",
     "mongoose": "^9.10.1",
     "multer": "^2.4.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pdf-parse": "^2.4.5"
   }
 }
