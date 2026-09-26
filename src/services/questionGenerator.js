@@ -1,6 +1,8 @@
 import genAI from '../config/gemini.js';
 
-// Generates personalized test questions based on parsed resume data
+
+
+
 export const generateQuestions = async (parsedData) => {
   const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
