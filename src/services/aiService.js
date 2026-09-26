@@ -1,6 +1,6 @@
 import genAI from '../config/gemini.js';
 
-// Extracts structured data (skills, projects, experience) from raw resume text
+// Extracts structured data (skills, projects, experience)
 export const parseResumeWithAI = async (rawText) => {
   const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
