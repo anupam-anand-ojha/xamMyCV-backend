@@ -13,7 +13,7 @@ const questionSchema = new mongoose.Schema({
   relatedSkill: {
     type: String,
   },
-  options: [String], // only for mcq type
+  options: [String], 
   correctAnswer: {
     type: String,
   },
