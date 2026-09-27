@@ -2,7 +2,8 @@ import Test from '../models/Test.js';
 import Resume from '../models/Resume.js';
 import { generateQuestions } from '../services/questionGenerator.js';
 
-//   Generate a personalized test from a parsed resume
+
+
 export const generateTest = async (req, res) => {
   try {
     const resume = await Resume.findById(req.params.resumeId);
