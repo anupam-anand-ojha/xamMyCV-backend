@@ -1,6 +1,6 @@
 import genAI from '../config/gemini.js';
 
-// Evaluates a single open-ended answer 
+
 export const evaluateAnswer = async (question, correctAnswer, userAnswer) => {
   const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
