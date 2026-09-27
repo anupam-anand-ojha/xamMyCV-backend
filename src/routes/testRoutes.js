@@ -7,4 +7,4 @@ const router = express.Router();
 router.post('/generate/:resumeId', protect, generateTest);
 router.get('/:id', protect, getTest);
 
-export default router;
+export default testRoute;
