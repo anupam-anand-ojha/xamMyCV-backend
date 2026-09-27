@@ -74,7 +74,7 @@ export const getTest = async (req, res) => {
 
 export const submitTest = async (req, res) => {
   try {
-    const { answers } = req.body; // [{ questionId, userAnswer }]
+    const { answers } = req.body; // questionId, userAnswer
 
     const test = await Test.findById(req.params.id);
 
