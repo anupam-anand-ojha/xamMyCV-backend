@@ -1,6 +1,5 @@
 import genAI from '../config/gemini.js';
 
-
 export const evaluateAnswer = async (question, correctAnswer, userAnswer) => {
   const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
@@ -46,7 +45,6 @@ export const calculateFinalScores = (questions) => {
   });
 
   const overallScore = Math.round((totalScore / maxScore) * 100);
-
 
   const deepDiveQuestions = questions.filter((q) => q.type === 'project-deep-dive');
   const deepDiveAvg =
