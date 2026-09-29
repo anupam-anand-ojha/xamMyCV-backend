@@ -1,7 +1,6 @@
 import { validationResult } from 'express-validator';
 
 // Checks validation results from express validator and returns errors if any
-
 export const validate = (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
