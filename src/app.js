@@ -19,4 +19,8 @@ app.get('/', (req, res) => {
   res.send('XamMyCV API is running');
 });
 
+
+app.use(notFound);
+app.use(errorHandler);
+
 export default app
