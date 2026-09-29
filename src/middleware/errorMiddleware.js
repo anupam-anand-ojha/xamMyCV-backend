@@ -4,7 +4,7 @@ export const notFound = (req, res, next) => {
   next(error);
 };
 
-// Centralized error handler — catches all errors thrown anywhere in the app
+// Centralized error handler that catches all errors thrown anywhere in the app
 export const errorHandler = (err, req, res, next) => {
   let statusCode = res.statusCode === 200 ? 500 : res.statusCode;
   let message = err.message;
