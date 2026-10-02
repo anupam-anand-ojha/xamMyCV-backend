@@ -5,6 +5,7 @@ import { validate } from '../middleware/validateMiddleware.js';
 
 const router = express.Router();
 
+
 router.post(
   '/register',
   [
@@ -17,6 +18,7 @@ router.post(
   validate,
   registerUser
 );
+
 
 router.post(
   '/login',
