@@ -4,9 +4,7 @@ import authRoutes from './routes/authRoutes.js';
 import resumeRoutes from './routes/resumeRoutes.js';
 import testRoute from './routes/testRoutes.js';
 
-
 const app = express();
-
 app.use(cors());
 
 app.use(express.json);
