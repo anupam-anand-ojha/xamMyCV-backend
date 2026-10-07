@@ -13,7 +13,7 @@ export const errorHandler = (err, req, res, next) => {
 
   if (err.name === 'CastError' && err.kind === 'ObjectId') {
     statusCode = 404;
-    message = 'Resources are unavailable ';
+    message = 'Resources are unavailable';
   }
 
 
