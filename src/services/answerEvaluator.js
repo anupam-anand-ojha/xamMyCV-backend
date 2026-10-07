@@ -7,7 +7,7 @@ export const evaluateAnswer = async (question, correctAnswer, userAnswer) => {
 
 Question: ${question}
 Expected/Reference Answer: ${correctAnswer}
-Candidate's Answer: ${userAnswer || '(No answer provided)'}
+Candidate's Answer: ${userAnswer || '(No any answer provided)'}
 
 Evaluate how well the candidate's answer demonstrates real, genuine understanding (not just correct keywords).
 
