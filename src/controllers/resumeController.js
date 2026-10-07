@@ -19,6 +19,7 @@ export const uploadResume = async (req, res) => {
     });
 
     res.status(201).json({
+      
       message: 'Resume uploaded and text extracted successfully',
       resumeId: resume._id,
       rawText: resume.rawText,
