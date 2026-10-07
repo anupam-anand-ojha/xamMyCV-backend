@@ -184,4 +184,5 @@ Authorization: Bearer <token>
 - File uploads are restricted to `.pdf` / `.docx`, max 5MB
 - `uploads/` and `.env` are gitignored — never commit real resumes or secrets
 
+
 ---
