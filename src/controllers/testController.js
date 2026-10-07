@@ -70,7 +70,7 @@ export const getTest = async (req, res) => {
   }
 };
 
-// Submit answers, evaluate them, and calculate final scores
+// Submit answers, evaluate them, and calculate final score 
 
 export const submitTest = async (req, res) => {
   try {
