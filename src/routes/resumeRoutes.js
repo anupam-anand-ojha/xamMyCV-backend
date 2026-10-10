@@ -7,4 +7,5 @@ const router = express.Router();
 
 router.post('/upload', protect, upload.single('resume'), uploadResume);
 
+
 export default resumeRoutes;
