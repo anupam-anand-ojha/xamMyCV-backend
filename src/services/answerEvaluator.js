@@ -21,6 +21,8 @@ Return ONLY valid JSON, no preamble, no markdown code fences, in exactly this fo
   const result = await model.generateContent(prompt);
   const responseText = result.response.text();
 
+  
+
   const cleanJson = responseText.replace(/```json|```/g, '').trim();
 
   try {
