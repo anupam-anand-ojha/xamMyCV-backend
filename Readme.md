@@ -185,4 +185,3 @@ Authorization: Bearer <token>
 - `uploads/` and `.env` are gitignored — never commit real resumes or secrets
 
 
----
