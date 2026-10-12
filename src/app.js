@@ -14,7 +14,7 @@ app.use('/api/test', testRoute);
 
 app.get('/', (req, res) => {
 
-  res.send('XamMyCV API is running');
+  res.send('XamMyCV API is running sucessfully');
 });
 
 
