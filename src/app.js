@@ -9,8 +9,8 @@ app.use(cors());
 
 app.use(express.json);
 app.use('/api/auth', authRoutes);
-app.use('/api/resume', resumeRoutes)
-app.use('/api/test', testRoute)
+app.use('/api/resume', resumeRoutes);
+app.use('/api/test', testRoute);
 
 app.get('/', (req, res) => {
 
