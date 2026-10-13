@@ -4,7 +4,7 @@ AI-powered backend that parses resumes, generates personalized skill-assessment 
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 - **Runtime**: Node.js (ES Modules)
 - **Framework**: Express.js
