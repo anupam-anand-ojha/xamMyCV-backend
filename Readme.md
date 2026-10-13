@@ -17,6 +17,7 @@ AI-powered backend that parses resumes, generates personalized skill-assessment 
 
 ---
 
+
 ## 📁 Folder Structure
 
 ```
