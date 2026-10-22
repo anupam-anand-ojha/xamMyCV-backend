@@ -41,4 +41,5 @@ ${rawText}
   } catch (error) {
     throw new Error('AI returned invalid JSON format');
   }
+  
 };
