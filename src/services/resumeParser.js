@@ -18,4 +18,5 @@ export const extractTextFromFile = async (filePath) => {
   }
 
   throw new Error('Unsupported file type');
+  
 };
