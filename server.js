@@ -1,7 +1,6 @@
 import app from "./src/app";
 import connectDB from "./src/config/db";
 
-
 connectDB();
 
 const PORT = process.env.PORT || 8000;
