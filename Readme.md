@@ -178,6 +178,7 @@ Authorization: Bearer <token>
 
 ---
 
+
 ## 🔒 Security Notes
 
 - Passwords are hashed with bcrypt before storing
